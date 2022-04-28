@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+
+    
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+
+</head>
+
+
+
+
+    <body>
+
+
+        <div class="container">
+
+
+
+            <div class="logo">
+                <img class="logo-img" src="img/Alura.jpg">
+                <h1 class="tittle"></h1>
+
+            </div>
+
+
+            <div class="left">
+                <textarea class="text-input" id="inputText"  rows="8"
+                cols="80" placeholder="Ingrese el texto aquí"></textarea>
+
+            </div>
+
+
+            <div class="right">
+                <textarea class="text2" id="text2" name="name" rows="12"
+                cols="80">Ningún mensaje fue encontrado</textarea>
+                <button class="copiar" id="copiar" type="button" name="button"  style="display: none;" onclick="copiar()">Copiar</button>
+
+            </div>
+
+
+           
+
+                <div class="left-button">
+                <div class="textAdvertencia"> <p>*Solo letras minúsculas y sin acentos</p></div>
+                <button type="button" class="button-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" class="button-desencriptar" onclick="desencriptar()">Desencriptar</button>
+
+
+            </div>
+
+          
+    
+        </div>
+        
+            <footer class="pie">
+
+                <section class="iconos">
+                    <a class="icon" href="https://github.com/CamilaLoza" target="_blank" rel="noopener noreferrer"freeCodeCamp>
+                        <img src="img/github.png" alt="github">
+                        <a class="icon2" href="https://linkedin.com/in/camila-florencia-loza-a76209236" target="_blank" rel="noopener noreferrer"freeCodeCamp>
+                            <img src="img/linkedin.png" alt="linkedin">
+                    </a>
+                </section>
+
+                <div class="post-footer">    by Camila Loza | Alura Challenge 2022</div>
+
+            </footer>
+        
+
+            <script type="text/javascript" src="script.js"></script>
+    </body>
+
+
+</html>
