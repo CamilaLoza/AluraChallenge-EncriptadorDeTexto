@@ -102,7 +102,16 @@ body{
     border-radius: 10px;
     border-style: solid;
     border-color: #0a9ce1;
+    transition: 1s background;
+    cursor: pointer;
 }
+
+
+.copiar:hover{
+    background-color: #0a9ce1;
+}
+
+
 
 
 
@@ -133,6 +142,13 @@ body{
     background-color: black;
     border-style:solid;
     border-color: #0a9ce1;
+    transition: 1s background;
+    cursor: pointer;
+    
+}
+
+.button-encriptar:hover{
+    background-color: #0a9ce1;
 }
 
 .button-desencriptar{
@@ -146,6 +162,12 @@ body{
     background-color: black;
     border-style: solid;
     border-color: #0a9ce1;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.button-desencriptar:hover{
+    background-color: #0a9ce1;
 }
 
 .iconos{
