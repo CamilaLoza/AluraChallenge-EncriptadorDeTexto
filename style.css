@@ -108,7 +108,7 @@ body{
 
 
 .copiar:hover{
-    background-color: #0a9ce1;
+    background-color: #c3ecff;
 }
 
 
@@ -125,7 +125,7 @@ body{
 
 .textAdvertencia{
     margin-left: 9%;
-    color: white;
+    color: #c3ecff;
     padding: 13px;
     font-family: monospace;
 
@@ -148,7 +148,7 @@ body{
 }
 
 .button-encriptar:hover{
-    background-color: #0a9ce1;
+    background-color: #c3ecff;
 }
 
 .button-desencriptar{
@@ -167,7 +167,7 @@ body{
 }
 
 .button-desencriptar:hover{
-    background-color: #0a9ce1;
+    background-color: #c3ecff;
 }
 
 .iconos{
