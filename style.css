@@ -104,6 +104,11 @@ body{
     border-color: #0a9ce1;
 }
 
+.copiar:hover{
+    background-color: #c3ecff;
+}
+
+
 
 
 .left-button{
@@ -116,7 +121,7 @@ body{
 
 .textAdvertencia{
     margin-left: 9%;
-    color: white;
+    color: #c3ecff;
     padding: 13px;
     font-family: monospace;
 
@@ -133,7 +138,14 @@ body{
     background-color: black;
     border-style:solid;
     border-color: #0a9ce1;
+    transition: 1s background;
+    cursor: pointer;
 }
+
+.button-encriptar:hover{
+    background-color: #c3ecff;
+}
+
 
 .button-desencriptar{
     font-family: monospace;
@@ -146,6 +158,13 @@ body{
     background-color: black;
     border-style: solid;
     border-color: #0a9ce1;
+    transition: 1s background;
+    cursor: pointer;
+    
+}
+
+.button-desencriptar:hover{
+    background-color: #c3ecff;
 }
 
 .iconos{

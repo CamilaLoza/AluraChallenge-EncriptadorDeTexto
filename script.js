@@ -42,11 +42,10 @@ function desencriptar(){
 
 function copiar(){
     var contenido = document.querySelector("#text2");
+    var inputText = document.getElementById("inputText")
     contenido.select();
     document.execCommand("copy");
-    alert("Texto copiado");
-
-
+    inputText.value = '';
 
 }
 
